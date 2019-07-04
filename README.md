@@ -87,7 +87,9 @@ In the picture below you can see what happens when you follow the advice and exe
 
 When you have added all your changes (which right now is only adding Bob), you're ready to _commit_ what you just did to the _Local Repository_. 
 
-The collected changes that you _commit_ are some meaningful chunk of work, so when you now run `git commit` a text editor will open and allow you to write a message telling everything what you just did. When you save and close the message file, your _commit_ is added to the _Local Repository_.
+The collected changes that you _commit_ are some meaningful chunk of work, so when you now run `git commit` a text editor will open (*NOTE:* It might happen that a program opens, 
+which doesn't look like a text editor. This strange program is called vim and you can exit it by typing `:q`. You can tell git to open your favorite editor by typing `git config --global core.editor [name of your favorite editor + flags if needed]`) and 
+allow you to write a message telling everything what you just did. When you save and close the message file, your _commit_ is added to the _Local Repository_.
 
 ![Committing to the local repo](img/commit.png)
 
